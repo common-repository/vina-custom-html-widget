@@ -1,0 +1,84 @@
+@charset "utf-8";
+/****************************************
+    Plugin Name: Vina Text Widget       *
+	Plugin URI:  http://VinaThemes.biz  *
+	Description: Show text              *
+	Version: 1.0.0                      *
+	Author: Vinathems                   *
+	Author URI: http://VinaThems.biz    *
+****************************************/
+#vina-text
+{
+	width:350px;
+	height:auto;
+}
+#visual textarea{width:325px; height:200px; margin-bottom:10px}
+#text textarea{width:325px; height:200px; margin-bottom:10px}
+.tooltip {
+    background-color: #F5F5B5;
+    border: 1px solid #DECA7E;
+    color: #303030;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 10px 13px;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+}
+.vina-tooltip {
+	color: #6699CC;
+    cursor: help;
+}
+
+#vina-tabs-container {
+    border-bottom: 1px solid #ccc;
+}
+#vina-tabs {
+    list-style: none;
+    padding: 5px 0 4px 0;
+    margin: 0 0 0 10px;
+}
+#vina-tabs li {
+    display: inline;
+}
+#vina-tabs li a {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    text-decoration: none;
+    background-color: #eeeeee;
+    border-bottom: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+#vina-tabs li a:hover {
+    background-color: #dddddd;
+    padding: 4px 6px;
+}
+#vina-tabs li.active a {
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    padding: 4px 6px 5px 6px;
+    border-bottom: none;
+}
+#vina-tabs li.active a:hover {
+    background-color: #eeeeee;
+    padding: 4px 6px 5px 6px;
+    border-bottom: none;
+}
+#vina-elements-container {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 10px 10px 0;
+}
+.vina-telement {
+    display: none;
+}
+.vina-plugins-container select {
+	height: 22px !important;
+    padding: 3px 3px 2px 3px !important;
+	width: 100% !important;
+}

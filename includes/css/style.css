@@ -1,0 +1,89 @@
+/*
+Plugin Name: Vina Custom HTML Widget
+Plugin URI: http://VinaThemes.biz
+Description: This plugin allows you to create your own HTML Widget using a WYSIWYG editor.
+Version: 1.0
+Author: VinaThemes
+Author URI: http://VinaThemes.biz
+Author email: contact@vinathemes.biz
+Demo URI: http://VinaDemo.biz
+Forum URI: http://VinaForum.biz
+License: GPLv3+
+*/
+
+#vina-text-widget {
+	line-height: 20px;
+}
+#vina-text-footer {
+	margin-top: 10px;
+}
+.vina-text-author {
+	font-size: 90%;
+	text-align: right;
+}
+.vina-text-author span {
+	font-weight: bold;
+}
+div#tcvn-copyright {
+	font-size: 12px;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Quote 01 */
+#vina-style.quote_01 {
+	background-color: #F5F5F5;
+    border: 2px dashed #DDDDDD;
+    padding: 10px;
+}
+
+/* Quote 02 */
+#vina-style.quote_02 {
+	background: none repeat scroll 0 0 yellow;
+    color: green;
+    padding: 10px;
+	content: open-quote;
+}
+
+/* messenger */
+#vina-style.messenger {
+	background: url("../images/vina-bg-chat.png") no-repeat scroll 0 0 transparent;
+    height: 170px;
+    padding: 30px;
+}
+
+/* Note 01 */
+#vina-style.note_01 {
+	background: url("../images/vina-bg-page.jpg") no-repeat scroll 0 0 transparent;
+    height: 220px;
+    padding: 50px 30px 30px 20px;
+    width: 210px;
+}
+#vina-style.note_01 #vina-text-widget,
+#vina-style.note_01 #vina-text-footer {
+	width: 190px
+}
+
+/* Note 02 */
+#vina-style.note_02 {
+	background: url("../images/vina-bg-page2.jpg") no-repeat scroll 0 0 transparent;
+    height: 220px;
+    padding: 50px 30px 30px 20px;
+    width: 210px;
+}
+#vina-style.note_02 #vina-text-widget,
+#vina-style.note_02 #vina-text-footer {
+	width: 195px
+}
+
+/* Note 03 */
+#vina-style.note_03 {
+	background: url("../images/vina-bg-page.png") no-repeat scroll 0 0 transparent;
+    height: 220px;
+    padding: 50px 30px 30px 20px;
+    width: 210px;
+}
+#vina-style.note_03 #vina-text-widget,
+#vina-style.note_03 #vina-text-footer {
+	width: 190px
+}
